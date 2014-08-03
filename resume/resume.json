@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Eric Baer",
+    "label": "We Developer",
+    "picture": "",
+    "email": "me@ericbaer.com",
+    "phone": "(901) 497-6710",
+    "website": "http://www.ericbaer.com",
+    "summary": "I am a full-stack developer with experience in the full software development cycle. I've done everything from embedded systems to high traffic APIs. I am most passionate about Agile, JavaScript development and web performance and I love what I do! My specialties are client side JavaScript applications and their ecosystems.",
+    "location": {
+      "postalCode": "98103",
+      "city": "Seattle",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "baer",
+        "url": "https://github.com/baer"
+      },
+      {
+        "network": "Twitter",
+        "username": "asoftwaredev",
+      }
+    ]
+  },
+
+  "skills": [{
+    "name": "primaryLanguages",
+    "keywords": [
+      "JavaScript", "Java", "HTML", "CSS", "Less", "Stylus"
+    ]
+  }, {
+    "name": "secondaryLaunguages",
+    "keywords": [
+      "Ruby", "LabVIEW G", "Bash", "Python", "SQL", "C/C++"
+    ]
+  }, {
+    "name": "frameworks",
+    "keywords": [
+      "Spring", "Backbone.js", "Node.js", "Express", "jQuery", "Handlebars.js", "Bootstrap", "Ruby on Rails", "Spring ROO"
+    ]
+  }, {
+    "name": "cloudServices",
+    "keywords": [
+      "Heroku", "Azure"
+    ]
+  }, {
+    "name": "tools",
+    "keywords": [
+      "Git", "Grunt", "Gulp", "Browserify", "Bower", "Maven", "Photoshop", "soapUI"
+    ]
+  }, {
+    "name": "practices",
+    "keywords": [
+      "Agile", "Scrum", "Kanban", "Test Driven Development", "Design Patterns"
+    ]
+  }],
+
+  "education": [
+    {
+      "institution": "University of Colorado at Boulder",
+      "area": "Computer Science",
+      "studyType": "Bachelor"
+    }
+  ],
+
+  "work": [{
+    "company": "Formidable Labs",
+    "position": "Senior Software Engineer",
+    "website": "http://formidablelabs.com/",
+    "startDate": "2013-09-1",
+    "summary": "Architecting large high traffic JavaScript applications around modern best practices and frameworks."
+  }, {
+    "company": "ReadyTalk",
+    "position": "Engineer",
+    "website": "http://www.readytalk.com/",
+    "startDate": "2011-11-1",
+    "endDate": "2013-7-1",
+    "summary": "Full stack web development in a scheduling and management application for web/audio conferencing.",
+    "highlights": [
+      "Full Stack Spring MVC Environment",
+      "Backbone.js + Handlebars.js driven front end"
+    ]
+  }, {
+    "company": "Comcast",
+    "position": "Engineer I",
+    "website": "http://www.comcast.com/",
+    "startDate": "2011-1-1",
+    "endDate": "2011-11-1",
+    "summary": "Working on a high traffic Java abstraction layer sitting between the Integrated Voice Systems (IVR) and the billing systems."
+  }, {
+    "company": "National Center for Atmospheric Research",
+    "position": "Software Developer",
+    "website": "http://www.ncar.ucar.edu",
+    "startDate": "2010-8-1",
+    "endDate": "2010-12-1",
+    "summary": "Created the web presence for a joint project between NCAR, CU and the Front Range Computing Consortium."
+  }, {
+    "company": "PS Audio",
+    "position": "Embedded Systems Engineer",
+    "website": "http://www.ncar.ucar.edu",
+    "startDate": "2008-4-1",
+    "endDate": "2010-1-1",
+    "summary": "Created a web design and publishing company specializing in fast turnaround low cost custom development for small business and professionals."
+  }, {
+    "company": "National Instruments",
+    "position": "Engineering Leadership Program (ELP) Intern",
+    "website": "http://www.ni.com",
+    "startDate": "2009-6-1",
+    "endDate": "2009-8-1",
+    "summary": "Worked directly with the development, UX and Management teams to design a training program that tests usability in an experimental version of the LabVIEW development environment."
+  }]
+
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+
+  "interests": [{
+    "name": "Entrepreneurship",
+    "keywords": []
+  }, {
+    "name": "Graphic/Industrial Design",
+    "keywords": []
+  }, {
+    "name": "UX",
+    "keywords": []
+  }, {
+    "name": "Architecture",
+    "keywords": []
+  }, {
+    "name": "World Travel",
+    "keywords": []
+  }, {
+    "name": "Drums",
+    "keywords": []
+  }, {
+    "name": "Woodwork",
+    "keywords": []
+  }, {
+    "name": "Climbing",
+    "keywords": []
+  }, {
+    "name": "Cycling",
+    "keywords": []
+  }]
+}
