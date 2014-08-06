@@ -1,11 +1,28 @@
 {
   "name"            : "eric-baer",
-  "version"         : "0.0.1",
-  "author"          : "Eric Baer <me@ericbaer.com>",
   "description"     : "A little bit about me",
+
+  "version"         : "0.0.2",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        :"https://github.com/baer/eric-baer",
+  "bugs": {
+    "url": "https://github.com/baer/pint/issues"
+  },
+
+  "repository"      :"git://github.com/baer/eric-baer.git",
   "private"         : false,
-  "repository"      : {
-    "type" : "git",
-    "url"  : "https://github.com/baer/eric-baer"
-  }
+
+  "dependencies": {
+    "commander"  : "2.3.0"
+  },
+
+  "main":"./index.js",
+  "bin":"./index.js",
+
+  "engines":{
+    "node": ">= 0.4.0"
+  },
+
+  "license"         : "MIT"
 }
