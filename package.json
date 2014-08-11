@@ -14,7 +14,9 @@
   "private"         : false,
 
   "dependencies": {
-    "commander"  : "2.3.0"
+    "commander"              : "2.3.0",
+    "natural"                : "0.1.28",
+    "underscore"             : "1.6.0"
   },
 
   "main":"./index.js",
