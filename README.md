@@ -1,7 +1,7 @@
 ## Eric Baer
 [![NPM version][npm-image]][npm-url] [![Dependency Status][depstat-image]][depstat-url]
 
-> nodeunit-runner plugin for [gulp](https://github.com/wearefractal/gulp)
+> Install's a small eric-baer on your computer
 
 ## Usage
 
