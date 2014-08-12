@@ -21,7 +21,7 @@
       },
       {
         "network": "Twitter",
-        "username": "asoftwaredev",
+        "username": "asoftwaredev"
       }
     ]
   },
@@ -70,14 +70,15 @@
     "company": "Formidable Labs",
     "position": "Senior Software Engineer",
     "website": "http://formidablelabs.com/",
-    "startDate": "2013-09-1",
+    "startDate": "2013-09-01",
+    "endDate": "3030-12-12",
     "summary": "Architecting large high traffic JavaScript applications around modern best practices and frameworks."
   }, {
     "company": "ReadyTalk",
     "position": "Engineer",
     "website": "http://www.readytalk.com/",
-    "startDate": "2011-11-1",
-    "endDate": "2013-7-1",
+    "startDate": "2011-11-01",
+    "endDate": "2013-07-01",
     "summary": "Full stack web development in a scheduling and management application for web/audio conferencing.",
     "highlights": [
       "Full Stack Spring MVC Environment",
@@ -87,31 +88,31 @@
     "company": "Comcast",
     "position": "Engineer I",
     "website": "http://www.comcast.com/",
-    "startDate": "2011-1-1",
-    "endDate": "2011-11-1",
+    "startDate": "2011-01-01",
+    "endDate": "2011-11-01",
     "summary": "Working on a high traffic Java abstraction layer sitting between the Integrated Voice Systems (IVR) and the billing systems."
   }, {
     "company": "National Center for Atmospheric Research",
     "position": "Software Developer",
     "website": "http://www.ncar.ucar.edu",
-    "startDate": "2010-8-1",
-    "endDate": "2010-12-1",
+    "startDate": "2010-08-01",
+    "endDate": "2010-12-01",
     "summary": "Created the web presence for a joint project between NCAR, CU and the Front Range Computing Consortium."
   }, {
     "company": "PS Audio",
     "position": "Embedded Systems Engineer",
     "website": "http://www.ncar.ucar.edu",
-    "startDate": "2008-4-1",
-    "endDate": "2010-1-1",
+    "startDate": "2008-04-01",
+    "endDate": "2010-01-01",
     "summary": "Created a web design and publishing company specializing in fast turnaround low cost custom development for small business and professionals."
   }, {
     "company": "National Instruments",
     "position": "Engineering Leadership Program (ELP) Intern",
     "website": "http://www.ni.com",
-    "startDate": "2009-6-1",
-    "endDate": "2009-8-1",
+    "startDate": "2009-06-01",
+    "endDate": "2009-08-01",
     "summary": "Worked directly with the development, UX and Management teams to design a training program that tests usability in an experimental version of the LabVIEW development environment."
-  }]
+  }],
 
   "languages": [
     {
