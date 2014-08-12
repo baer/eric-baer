@@ -5,13 +5,13 @@
 
 ## Usage
 
-First, install `gulp-nodeunit-runner` as a development dependency:
+First, install `eric-baer`
 
 ```shell
 npm install -g eric-baer
 ```
 
-To see what it can do, just ask for help!
+Then, to see what it can do just ask for help!
 
 ```shell
 eric-baer --help
