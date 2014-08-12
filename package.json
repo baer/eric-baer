@@ -2,7 +2,7 @@
   "name"            : "eric-baer",
   "description"     : "A little bit about me",
 
-  "version"         : "0.0.3",
+  "version"         : "0.0.4",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        :"https://github.com/baer/eric-baer",
@@ -14,7 +14,9 @@
   "private"         : false,
 
   "dependencies": {
-    "commander"  : "2.3.0"
+    "commander"              : "2.3.0",
+    "natural"                : "0.1.28",
+    "underscore"             : "1.6.0"
   },
 
   "main":"./index.js",
