@@ -21,8 +21,8 @@ eric-baer --help
 
 [MIT License](http://opensource.org/licenses/MIT)
 
-[npm-url]: https://npmjs.org/package/gulp-nodeunit-runner
-[npm-image]: https://badge.fury.io/js/gulp-nodeunit-runner.png
+[npm-url]: https://npmjs.org/package/eric-baer
+[npm-image]: https://badge.fury.io/js/eric-baer.png
 
-[depstat-url]: https://david-dm.org/baer/gulp-nodeunit-runner
-[depstat-image]: https://david-dm.org/baer/gulp-nodeunit-runner.png
+[depstat-url]: https://david-dm.org/baer/eric-baer
+[depstat-image]: https://david-dm.org/baer/eric-baer.png
