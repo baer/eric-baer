@@ -1,13 +1,13 @@
 {
   "name"            : "eric-baer",
-  "description"     : "A little bit about me",
+  "description"     : "Installs a small eric-baer on your computer",
 
-  "version"         : "0.0.5",
+  "version"         : "0.0.6",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        :"https://github.com/baer/eric-baer",
   "bugs": {
-    "url": "https://github.com/baer/pint/issues"
+    "url": "https://github.com/baer/eric-baer/issues"
   },
 
   "repository"      :"git://github.com/baer/eric-baer.git",
@@ -16,7 +16,9 @@
   "dependencies": {
     "commander"              : "2.3.0",
     "natural"                : "0.1.28",
-    "underscore"             : "1.6.0"
+    "underscore"             : "1.6.0",
+    "request"                : "2.40.0",
+    "bluebird"               : "2.3.0"
   },
 
   "main":"./index.js",

@@ -1,7 +1,7 @@
 ## Eric Baer
 [![NPM version][npm-image]][npm-url] [![Dependency Status][depstat-image]][depstat-url]
 
-> Install's a small eric-baer on your computer
+> Installs a small eric-baer on your computer
 
 ## Usage
 
