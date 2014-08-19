@@ -2,7 +2,7 @@
   "name"            : "eric-baer",
   "description"     : "Installs a small eric-baer on your computer",
 
-  "version"         : "0.0.6",
+  "version"         : "0.0.7",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        :"https://github.com/baer/eric-baer",
@@ -19,6 +19,11 @@
     "underscore"             : "1.6.0",
     "request"                : "2.40.0",
     "bluebird"               : "2.3.0"
+  },
+  "devDependencies": {
+    "gulp"                   : "3.8.7",
+    "gulp-jshint"            : "1.8.4",
+    "jshint-stylish"         : "0.4.0"
   },
 
   "main":"./index.js",
