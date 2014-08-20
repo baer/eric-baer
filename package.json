@@ -2,7 +2,7 @@
   "name"            : "eric-baer",
   "description"     : "Installs a small eric-baer on your computer",
 
-  "version"         : "0.0.7",
+  "version"         : "0.0.8",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        :"https://github.com/baer/eric-baer",
