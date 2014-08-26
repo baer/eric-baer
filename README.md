@@ -3,6 +3,17 @@
 
 > Installs a small eric-baer on your computer
 
+This project is the beginnings of a developer's media-kit. Its purpose is to serve as a convenient
+developer friendly set of pre-packaged biographical and professional materials for quick and easy
+distribution.
+
+**Goals**
+
+* Keep a gravatar/profile image in an easy to find location.
+* Keep a resume under version control!
+* Keep personal information in an easily distributed location.
+* Have a little fun :)
+
 ## Usage
 
 First, install `eric-baer`
