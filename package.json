@@ -14,19 +14,19 @@
   "private"         : false,
 
   "dependencies": {
-    "bluebird"               : "2.3.2",
-    "commander"              : "2.3.0",
-    "glob"                   : "4.0.5",
-    "natural"                : "0.1.28",
+    "bluebird"               : "2.9.30",
+    "commander"              : "2.8.1",
+    "glob"                   : "5.0.10",
+    "natural"                : "0.2.1",
     "open"                   : "0.0.5",
-    "request"                : "2.40.0",
-    "underscore"             : "1.6.0"
+    "request"                : "2.58.0",
+    "underscore"             : "1.8.3"
   },
   "devDependencies": {
-    "gulp-jscs"              : "1.1.0",
-    "gulp-jshint"            : "1.8.4",
-    "gulp"                   : "3.8.7",
-    "jshint-stylish"         : "0.4.0"
+    "gulp-jscs"              : "1.6.0",
+    "gulp-jshint"            : "1.11.0",
+    "gulp"                   : "3.9.0",
+    "jshint-stylish"         : "2.0.0"
   },
 
   "bin":"./bin/index.js",
