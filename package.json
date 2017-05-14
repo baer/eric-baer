@@ -25,6 +25,7 @@
     "natural"                  : "0.5.1",
     "open"                     : "0.0.5",
     "picture-tube"             : "1.0.0",
+    "pify"                     : "2.3.0",
     "request"                  : "2.81.0",
     "underscore"               : "1.8.3"
   },
