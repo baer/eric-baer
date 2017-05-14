@@ -13,21 +13,27 @@
   "repository"      :"git://github.com/baer/eric-baer.git",
   "private"         : false,
 
+  "scripts": {
+    "lint": "eslint ."
+  },
+
   "dependencies": {
-    "bluebird"               : "2.9.30",
-    "commander"              : "2.8.1",
-    "glob"                   : "5.0.10",
-    "natural"                : "0.2.1",
-    "open"                   : "0.0.5",
-    "picture-tube"           : "0.0.4",
-    "request"                : "2.58.0",
-    "underscore"             : "1.8.3"
+    "bluebird"                 : "2.9.30",
+    "commander"                : "2.8.1",
+    "glob"                     : "5.0.10",
+    "lodash"                   : "4.17.4",
+    "natural"                  : "0.2.1",
+    "open"                     : "0.0.5",
+    "picture-tube"             : "0.0.4",
+    "request"                  : "2.58.0",
+    "underscore"               : "1.8.3"
   },
   "devDependencies": {
-    "gulp-jscs"              : "1.6.0",
-    "gulp-jshint"            : "1.11.0",
-    "gulp"                   : "3.9.0",
-    "jshint-stylish"         : "2.0.0"
+    "babel-eslint"             : "7.2.1",
+    "eslint-config-formidable" : "2.0.1",
+    "eslint-plugin-filenames"  : "1.1.0",
+    "eslint-plugin-import"     : "2.2.0",
+    "eslint"                   : "2.10.2"
   },
 
   "bin":"./bin/index.js",
