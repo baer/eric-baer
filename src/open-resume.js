@@ -1,12 +1,12 @@
 "use strict";
 
-const { isEmpty, first } = require("lodash");
+const { first } = require("lodash");
 const pify = require("pify");
 const glob = pify(require("glob"));
 const open = require("open");
 
 const getResumePath = () => {
-  return glob(__dirname + "/../me/*esume.pdf")
+  return glob(__dirname + "/../data/*esume.pdf")
     .then(first);
 };
 

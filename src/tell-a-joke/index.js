@@ -12,7 +12,7 @@ const natural = require("natural");
 const util = require("util");
 
 const stopWords = require("./stop-words-en.json");
-const jokes = require("./jokes.json");
+const jokes = require("../../data/jokes.json");
 
 const tokenizer = new natural.WordTokenizer();
 
