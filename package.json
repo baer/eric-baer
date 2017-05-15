@@ -18,7 +18,6 @@
   },
 
   "dependencies": {
-    "bluebird"                 : "3.5.0",
     "commander"                : "2.9.0",
     "glob"                     : "7.1.1",
     "lodash"                   : "4.17.4",
@@ -26,6 +25,7 @@
     "open"                     : "0.0.5",
     "picture-tube"             : "1.0.0",
     "pify"                     : "2.3.0",
+    "request-promise-native"   : "1.0.4",
     "request"                  : "2.81.0"
   },
   "devDependencies": {
