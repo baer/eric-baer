@@ -1,28 +1,46 @@
 {
-  "name": "eric-baer",
-  "description": "Installs a small eric-baer on your computer",
-  "version": "0.0.9",
-  "author": "Eric Baer <me@ericbaer.com>",
-  "homepage": "https://github.com/baer/eric-baer",
+  "name"            : "eric-baer",
+  "description"     : "Installs a small eric-baer on your computer",
+
+  "version"         : "0.0.9",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        :"https://github.com/baer/eric-baer",
   "bugs": {
     "url": "https://github.com/baer/eric-baer/issues"
   },
-  "repository": "git://github.com/baer/eric-baer.git",
-  "private": false,
+
+  "repository"      :"git://github.com/baer/eric-baer.git",
+  "private"         : false,
+
+  "scripts": {
+    "lint": "eslint ."
+  },
+
   "dependencies": {
-    "bluebird": "3.4.0",
-    "commander": "2.9.0",
-    "glob": "7.0.3",
-    "lodash": "4.13.1",
-    "natural": "0.4.0",
-    "open": "0.0.5",
-    "request": "2.72.0"
+    "bluebird"                 : "3.5.0",
+    "commander"                : "2.9.0",
+    "glob"                     : "7.1.1",
+    "lodash"                   : "4.17.4",
+    "natural"                  : "0.5.1",
+    "open"                     : "0.0.5",
+    "picture-tube"             : "1.0.0",
+    "pify"                     : "2.3.0",
+    "request"                  : "2.81.0"
   },
   "devDependencies": {
+    "babel-eslint"             : "7.2.3",
+    "eslint-config-formidable" : "2.0.1",
+    "eslint-plugin-filenames"  : "1.1.0",
+    "eslint-plugin-import"     : "2.2.0",
+    "eslint"                   : "2.10.2"
   },
-  "bin": "./bin/index.js",
-  "engines": {
-    "node": ">= 0.4.0"
+
+  "bin":"./bin/index.js",
+
+  "engines":{
+    "node": ">= 0.10.0"
   },
-  "license": "MIT"
+
+  "license"         : "MIT"
 }
