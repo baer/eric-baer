@@ -5,11 +5,15 @@ const request = require("request-promise-native");
 
 const SUBREDDIT = "WorstAdviceEver";
 
+const requestDefaultOptions = {
+  json: true, // Automatically parses the JSON string in the response,
+  timeout: 5000
+};
+
 const getRandomPost = (subreddit) => {
-  return request({
-    uri: `http://reddit.com/r/${subreddit}.json`,
-    json: true // Automatically parses the JSON string in the response
-  })
+  return request(Object.assign({}, requestDefaultOptions, {
+    uri: `http://reddit.com/r/${subreddit}.json`
+  }))
     .then((response) => {
       const posts = get(response, "data.children");
 
@@ -26,10 +30,9 @@ const getRandomPost = (subreddit) => {
 const getRandomResponse = (redditPostURIFragment) => {
   const reditPostURI = `http://reddit.com/${redditPostURIFragment}.json`;
 
-  return request({
-    uri: reditPostURI,
-    json: true // Automatically parses the JSON string in the response
-  })
+  return request(Object.assign({}, requestDefaultOptions, {
+    uri: reditPostURI
+  }))
     .then((response) => {
       // Oddly, the response body is an array with two elements where the first is the question node
       // and the second is the list of responses
