@@ -12,15 +12,22 @@ const getRandomPost = (subreddit) => {
   })
     .then((response) => {
       const posts = get(response, "data.children");
+
+      if (isEmpty(posts)) {
+        throw new Error(`The sub-reddit ${subreddit} returned no posts`);
+      }
+
       const randomPost = posts[Math.floor(Math.random() * posts.length)];
       return get(randomPost, "data.permalink");
     })
     .then((urlFragment) => trimEnd(urlFragment, "/"));
 };
 
-const getRandomResponse = (redditPostURI) => {
+const getRandomResponse = (redditPostURIFragment) => {
+  const reditPostURI = `http://reddit.com/${redditPostURIFragment}.json`;
+
   return request({
-    uri: `http://reddit.com/${redditPostURI}.json`,
+    uri: reditPostURI,
     json: true // Automatically parses the JSON string in the response
   })
     .then((response) => {
@@ -29,7 +36,7 @@ const getRandomResponse = (redditPostURI) => {
       const responses = get(response, "[1].data.children");
 
       if (isEmpty(responses)) {
-        return "Treat yo' self";
+        throw new Error(`There are no responses to the post at ${reditPostURI}`);
       }
 
       const randomResponse = responses[Math.floor(Math.random() * responses.length)];
@@ -39,7 +46,8 @@ const getRandomResponse = (redditPostURI) => {
 
 const getAdvice = () => {
   return getRandomPost(SUBREDDIT)
-    .then(getRandomResponse);
+    .then(getRandomResponse)
+    .catch(() => "Treat yo' self");
 };
 
 module.exports = () => {
